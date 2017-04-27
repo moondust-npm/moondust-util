@@ -1,11 +1,11 @@
 {
-  "name": "moondust-utils",
-  "version": "1.0.3",
+  "name": "moondust-util",
+  "version": "1.1.4",
   "description": "工具类",
   "main": "index.js",
   "scripts": {},
   "keywords": [
-    "build,tool,scp,zip,tar"
+    "fileUtil,objectUtil,StringUtil,etc"
   ],
   "author": "Tristan",
   "license": "ISC",
@@ -14,5 +14,5 @@
     "rimraf": "^2.6.1",
     "rd": "^1.0.0"
   },
-  "repository": "https://github.com/moondust-npm/moondust-utils"
+  "repository": "https://github.com/moondust-npm/moondust-util"
 }
