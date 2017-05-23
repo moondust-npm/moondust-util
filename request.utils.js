@@ -31,6 +31,4 @@ module.exports.checkProperties = checkProperties;
 function checkPropertiesAndFormat(object,...params) {
 
 
-
-
 }
