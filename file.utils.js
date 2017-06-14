@@ -43,6 +43,7 @@ function exist(file_path) {
     })
 }
 module.exports.exist = exist;
+
 /**
  * 判断路径是不是文件
  * @param {string} file_path
@@ -53,7 +54,6 @@ function isFile(file_path) {
         fs.stat(file_path, (err, stat) => {
             if (err) {
                 reject(err);
-                return;
             }
             if (stat.isFile()) {
                 resolve(true)
